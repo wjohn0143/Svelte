@@ -1,0 +1,25 @@
+{
+  "name": "learn-svelte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run cssnowatch && vite build",
+    "preview": "vite preview",
+    "cssnowatch": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css",
+    "css": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
+    "deploy": "npm run build && npx gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "gh-pages": "^5.0.0",
+    "svelte": "^4.0.3",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.5.2"
+  },
+  "dependencies": {
+    "@okrad/svelte-progressbar": "^2.2.0",
+    "nanoid": "^4.0.2"
+  }
+}

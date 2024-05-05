@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  h1 {
+    @apply text-3xl font-semibold leading-relaxed dark:text-white mb-4 duration-300;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold dark:text-white duration-300;
+  }
+
+  h3 {
+    @apply text-xl dark:text-white mb-1 duration-300;
+  }
+
+  h4 {
+    @apply text-lg dark:text-white mb-1 duration-300;
+  }
+
+  section {
+    @apply m-8 mb-16 duration-300;
+  }
+}
+
+@layer components {
+  .card {
+    @apply dark:bg-slate-700 bg-slate-100 rounded-md dark:text-white shadow-lg shadow-slate-300 dark:shadow-slate-900 px-8 py-4 duration-300;
+  }
+}
