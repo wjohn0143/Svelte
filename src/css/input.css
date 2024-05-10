@@ -13,7 +13,7 @@
   }
 
   h3 {
-    @apply text-xl dark:text-white mb-1 duration-300;
+    @apply text-xl dark:text-white mb-1 duration-300; 
   }
 
   h4 {
