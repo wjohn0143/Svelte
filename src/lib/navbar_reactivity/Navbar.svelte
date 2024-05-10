@@ -22,10 +22,10 @@
     <!-- Logo -->
     <div class="h-auto flex">
       <a
-        href="https://github.com/ikhsan3adi/Learn-Svelte"
+        href="https://github.com/wjohn0143/Svelte"
         class="uppercase tracking-widest my-auto"
       >
-        Learn Svelte
+        Learn Svelte  
       </a>
     </div>
   </div>
