@@ -27,7 +27,7 @@
 
   const request = async () => {
     try {
-      const result = await fetch("https://api.github.com/users/ikhsan3adi")
+      const result = await fetch("https://api.github.com/users/wjohn0143")
         .then(async (response) => {
           return mapJsonToGithubUser(await response.json());
         })
